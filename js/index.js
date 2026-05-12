@@ -1,13 +1,10 @@
 $(document).ready(function(){
-    
-    $('.gallery-cell').click(function(){
-        $('.gallery-cell').toggleClass('open');
-    });
+    // run once after page is loaded
 
-
-        
-    $('.image-block').click(function(){
-        $('.image-block img').toggleClass('second-image');
-    });
+    $('.box').click(function(){
+        // call only after click
+        $('.red').css('width', 500);
+        $('.green').css('width', 0);
+    })
 
 });
