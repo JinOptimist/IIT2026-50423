@@ -3,18 +3,25 @@
 }
 
 .box {
-    
     height: 500px;
     transition: all 2s;
 }
+
 
 .red {
     background-color: red;
     width: 0;
 }
+.container.red-is-open .red{
+    width: 500px;
+}
 
 .green {
     background-color: green;
+    width: 500px;
+}
+.container.red-is-open .green{
+    width: 0;
 }
 
 .box img {
